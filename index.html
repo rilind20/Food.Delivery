@@ -1,0 +1,293 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Food Delivery</title>
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <div class="sidebar">
+            <!--LOGO-->
+            <h1 class="logo">FoodTime</h1>
+            <!--List of menus-->
+            <div class="sidebar-divider">
+                <div class="sidebar-menus">
+                    <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+                    <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+                    <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+                    <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+                    <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+                    <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+                </div>
+                <div class="sidebar-logout">
+                    <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <!--main navbar-->
+            <div class="main-navbar">
+                <!--menu when appear on mobile version-->
+                <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+                <!--search bar-->
+                <div class="search">
+                    <input type="text" placeholder="what you want to eat ?">
+                    <button class="search-btn">Search</button>
+                </div>
+                <!--profile icon on left side of navbar-->
+                <div class="profile">
+                    <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                    <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+                </div>
+            </div>
+            <!--main highlight-->
+            <div class="main-heighlight">
+                <!--title section and arrow-->
+                <div class="main-header">
+                    <h2 class="main-title">Recommendations</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+                </div>
+                <!--heighlight menu-->
+                <div class="highlight-wrapper">
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="images.jpeg">
+                        <div class="highlight-desc">
+                            <h4>Fresh Salad</h4>
+                            <p>$5</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="download.jpeg">
+                        <div class="highlight-desc">
+                            <h4>Caffe Latte</h4>
+                            <p>$2.30</p>
+        
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="stake.jpg">
+                        <div class="highlight-desc">
+                            <h4>Premium Steak</h4>
+                            <p>$20.50</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="download (1).jpeg">
+                        <div class="highlight-desc">
+                            <h4>Big Burger</h4>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+            </div>
+            <!--main menus / order-->
+            <div class="main-menus">
+                <!--filter section-->
+                <div class="main-filter">
+                    <div>
+                        <h2 class="main-title">Menu <br>Category</h2>
+                        <div class="main-arrow">
+                            <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                            <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="restaurant-outline"></ion-icon>
+                            </div>
+                            <p>All Menus</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="fast-food-outline"></ion-icon>
+                            </div>
+                            <p>Burger</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="pizza-outline"></ion-icon>
+                            </div>
+                            <p>Pizza</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="wine-outline"></ion-icon>
+                            </div>
+                            <p>Wine</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="ice-cream-outline"></ion-icon>
+                            </div>
+                            <p>Ice Cream</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="cafe-outline"></ion-icon>
+                            </div>
+                            <p>Coffee</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="fish-outline"></ion-icon>
+                            </div>
+                            <p>Seafood</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="nutrition-outline"></ion-icon>
+                            </div>
+                            <p>Healthy</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <!--List pf food menus-->
+                <div class="main-detail">
+                    <h2 class="main-title">Chose Order</h2>
+                    <div class="detail-wrapper">
+                        <div class="detail-card">
+                            <img class="detail-img" src="Seafood.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Shrimp Soup</h4>
+                                    <p class="detail-sub">Instant Pot Creamy Shrimp Soup</p>
+                                    <p class="price">$9</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="Pizza.jpg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Pizza</h4>
+                                    <p class="detail-sub"> Homemade Pizza</p>
+                                    <p class="price">$7</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="wine.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Wine</h4>
+                                    <p class="detail-sub">Cherry Wine</p>
+                                    <p class="price">$11.90</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="Latte cafe.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Latte Cafe</h4>
+                                    <p class="detail-sub">CAFFÉ LATTE CHOCOLATE COOKIE</p>
+                                    <p class="price">$2.50</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="fresh salad.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Fresh Salad</h4>
+                                    <p class="detail-sub">RAINBOW FRESH CHOPPED SALAD</p>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="beef-burger.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Burger</h4>
+                                    <p class="detail-sub">Beef Burger: the best-ever recipe for a classic American burger
+                                    </p>
+                                    <p class="price">$5.30</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="tost.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Tost</h4>
+                                    <p class="detail-sub">Greek "Tost" & Greek Crepe</p>
+                                    <p class="price">$3.40</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="Samun.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Samun</h4>
+                                    <p class="detail-sub">Samun with sausage</p>
+                                    <p class="price">$3.40</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Login and Register Section -->
+            <div class="login-register-section">
+                <!-- Login Form -->
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <label for="loginUsername">Username:</label>
+                        <input type="text" id="loginUsername" name="loginUsername" required>
+        
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+        
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+        
+                <!-- Register Form -->
+                <div class="register-form">
+                    <h2>Register</h2>
+                    <form id="registerForm">
+                        <label for="registerUsername">Username:</label>
+                        <input type="text" id="registerUsername" name="registerUsername" required>
+        
+                        <label for="registerPassword">Password:</label>
+                        <input type="password" id="registerPassword" name="registerPassword" required>
+        
+                        <label for="confirmPassword">Confirm Password:</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--adding javascript -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+
+</html>
